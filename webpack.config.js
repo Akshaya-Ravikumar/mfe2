@@ -33,7 +33,7 @@ module.exports = {
             name: 'mfe2',
             filename: 'remoteEntry.js',
             exposes: {
-                './Mfe2Index': './src/App'
+                './Mfe2Index': './src/index'
             }
         }),
         new HtmlWebpackPlugin({
